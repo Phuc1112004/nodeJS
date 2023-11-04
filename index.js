@@ -2,7 +2,7 @@ require("dotenv").config();    // sẽ sử dụng được file cấu hình .en
 
 const express = require("express");
 const app = express();  // host - app
-const port = 2210;
+const port = 2210;   
  
 app.listen(port,function(){
     console.log("Server is running...");
