@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="/css/product.css">
+</head>
+<body>
+  
+<form action="/product/product" method="post" id="create-product" enctype="multipart/form-data">
+    <h3>Create Product</h2>
+<div class="container">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Name">
+    <label for="description">Description</label>
+    <input type="text" id="description" name="description"  placeholder="Description">
+    <label for="price">Price</label>
+    <input type="text" id="price" name="price" placeholder="Price">
+    <label for="thumbnail">Thumbnail</label>
+    <input type="file" id="thumbnail" name="thumbnail" accept="image/*">
+    <label for="quantity">Quantity</label>
+    <input type="number" id="quantity" name="quantity" value="1" min="1" required>
+    <button type="submit">Submit</button>
+</div>
+</form>
+
+
+<!-- 
+
+
+<form id="update-product" style="display: none;">
+    <h2>Cập Nhật Sản Phẩm</h2>
+    <input type="hidden" id="update-id" name="id">
+    <label for="update-name">Tên:</label>
+    <input name="name" type="text" id="update-name" name="name" required>
+    <label for="update-description">Mô tả:</label>
+    <input name="description" type="text" id="update-description" name ="description">
+    <label for="update-price">Giá:</label>
+    <input name="price" type="text" id="update-price" name="price" required>
+    <label for="update-thumbnail">Thumbnail:</label>
+    <input name="thumbnail" type="file" id="update-thumbnail" name="thumbnail" accept="image/*">
+    <label for="update-quantity">Số lượng:</label>
+    <input name="quantity" type="number" id="update-quantity" name="quantity" value="1" min="1" required>
+    <button type="submit">Cập Nhật</button>
+    <button type="button" id="cancel-update">Hủy</button>
+</form> -->
+
+    
+</body>
+</html>
