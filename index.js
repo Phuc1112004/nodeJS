@@ -7,7 +7,7 @@ const port = 2210;
 app.listen(port,function(){
     console.log("Server is running...");
 })
-
+//
 // use views
 app.set("view engine","ejs");
 
